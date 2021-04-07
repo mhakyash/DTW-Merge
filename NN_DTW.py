@@ -53,7 +53,7 @@ for counter, folder_name in enumerate(list_of_folder):
 
 	test_samples = test_samples.astype('double')
 
-	#claculating NN-DTW
+	#calculating NN-DTW
 	predicted_label = []
 	for index, test_sample in enumerate(test_samples):
 		print(index)
